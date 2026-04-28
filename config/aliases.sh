@@ -1,0 +1,6 @@
+alias ls='eza -lh --icons'
+alias ll='eza -lah --icons'
+alias la='eza -a --icons'
+alias lt='eza --tree --icons'
+alias grep='rg'
+alias cls='clear'
