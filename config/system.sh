@@ -16,10 +16,10 @@ distribution() {
 DISTRO=$(distribution)
 
 case "$DISTRO" in
-    arch|fedora)
-        alias cat='bat'
+    debian|ubuntu)
+        alias cat='batcat'
         ;;
     *)
-        alias cat='batcat'
+        alias cat='bat'
         ;;
 esac
