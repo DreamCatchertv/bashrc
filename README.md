@@ -4,7 +4,7 @@ Modular bash configuration.
 
 ## Installation
 
-git clone https://github.com/username/bash-config.git
+git clone https://git.dreammc.uk/Dreamcatcher/bashrc.git
 cd bash-config
 chmod +x install.sh
 ./install.sh
