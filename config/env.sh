@@ -3,7 +3,7 @@ export SUDO_EDITOR="$EDITOR"
 export VISUAL=nvim
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.dotnet/tools
-export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin"
+export PATH=$PATH:$HOME/.cargo/bin:/var/lib/flatpak/exports/bin:$HOME/.local/share/flatpak/exports/bin
 
 export HISTFILESIZE="${HISTSIZE}"
 export HISTSIZE=32768
