@@ -98,6 +98,7 @@ install_bashconfig_deps
 mkdir -p "$CONFIG_DIR"
 
 cp -r config/* "$CONFIG_DIR/"
+mv "$CONFIG_DIR/starship.toml" "$HOME/.config/starship.toml"
 
 # Copy local.example.sh if no local.sh exists
 if [ ! -f "$CONFIG_DIR/local.sh" ]; then
