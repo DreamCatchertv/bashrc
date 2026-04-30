@@ -23,8 +23,8 @@ Modular bash configuration.
 | `local.example.sh` | Template for local overrides (copied to `local.sh`) |
 
 ## Installation
-
-git clone https://git.dreammc.uk/Dreamcatcher/bashrc.git
+```
+git clone https://github.com/DreamCatchertv/bashrc.git
 
 cd bash-config
 
